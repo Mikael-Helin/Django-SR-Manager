@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.mo
+*.db
+*.sqlite3
+local_settings.py
+db.sqlite3
+
+# Media and static files
+/media/
+/staticfiles/
+/static_root/
+/media_root/
+
+# VS Code
+.vscode/
+
+# Environment
+.env
+*.env
+.env.*
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.pip-wheel-metadata/
+pip-log.txt
+
+# Mac and system files
+.DS_Store
+Thumbs.db
+
+# Migrations (optional: keep if you want versioned migrations)
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/*.pyd
+
+# Node stuff (if using npm for frontend)
+node_modules/
+package-lock.json
